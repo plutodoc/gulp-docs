@@ -1,16 +1,18 @@
 {
-  "name": "rspress-doc-template",
+  "name": "gulp-docs",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "rspress dev",
     "build": "rspress build",
+    "dev": "rspress dev",
+    "fmt": "prettier . --write --cache",
     "preview": "rspress preview"
   },
   "dependencies": {
     "rspress": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "^16"
+    "@types/node": "^16",
+    "prettier": "^3.0.0"
   }
 }
